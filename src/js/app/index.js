@@ -1,3 +1,3 @@
-var obj = require('../module/b')
+var Toast = require('../module/toast').Toast
 
-console.log1(obj)
+Toast('嗨， 你好', 1000)

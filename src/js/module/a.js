@@ -1,1 +1,0 @@
-module.exports.a = 'aaa11asdf'
