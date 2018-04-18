@@ -1,3 +1,2 @@
-var Toast = require('../module/toast').Toast
-
-Toast('嗨， 你好', 1000)
+var eventCenter = require('../module/event')
+console.log(eventCenter)
