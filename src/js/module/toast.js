@@ -1,4 +1,4 @@
-var $ = require('../library/jquery.min.js')
+// var $ = require('../library/jquery.min.js')
 require('../../less/toast.less')
 
 function toast(msg, time) {

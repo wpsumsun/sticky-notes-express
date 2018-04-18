@@ -23,5 +23,11 @@ module.exports = {
                 loader: "less-loader" // compiles Less to CSS
             }]
         }]
-    }
+    },
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        })
+    ]
 }
